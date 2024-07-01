@@ -10,7 +10,7 @@ function fetchUserProfile(userId) {
             if (profile) {
                 resolve(profile);
             } else {
-                reject(new Error('User profile not found'));
+                reject(new Error('User profile not found!!!'));
             }
         }, 1000);
     });
